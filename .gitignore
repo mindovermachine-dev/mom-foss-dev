@@ -1,0 +1,20 @@
+# Node
+**/node_modules/
+
+# logs
+**/logs/
+
+# macOS
+.DS_Store
+
+# takt
+.tt_cache
+version.txt
+
+# Astro
+.astro/
+dist/
+
+# General
+/tmp
+/temp
