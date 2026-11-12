@@ -11,3 +11,4 @@ This documentation captures the proposed managed development stack and provides 
 - [European cloud sovereignty framework](./sovereignty/cloud-framework/)
 - [Platform architecture](./architecture/platform/), [identity](./architecture/identity/), and [cloud providers](./architecture/cloud-providers/)
 - [Deployment and operations](./delivery/deployment/)
+- [Decision register](./decisions/register/): what has been decided, and what is still open

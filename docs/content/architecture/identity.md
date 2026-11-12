@@ -11,6 +11,8 @@ Use a dedicated identity provider, such as Keycloak or Authentik, to authenticat
 
 OIDC login does not by itself guarantee that provider groups map to Forgejo teams or Matrix room permissions. Verify the capabilities and configuration of each application and integration before promising centralized role-based authorization.
 
+The choice of identity provider is tracked as `idn-d1`, and where it runs as `idn-q1`, in the [decision register](../../decisions/register/#identity).
+
 ## Alternatives
 
 Forgejo can act as an OAuth2 provider for Synapse, potentially reducing the number of components. The source strategy notes limitations in its claims and group mapping, so evaluate this option against the customer's authorization needs.

@@ -25,6 +25,10 @@ export default {
   // One group per folder under docs/content; order pages with `sidebar.order` frontmatter.
   sidebar: [
     {
+      label: "Decisions",
+      items: [{ autogenerate: { directory: "decisions" } }],
+    },
+    {
       label: "Strategy",
       items: [{ autogenerate: { directory: "strategy" } }],
     },
