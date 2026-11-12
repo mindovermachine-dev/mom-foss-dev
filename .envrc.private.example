@@ -1,0 +1,9 @@
+# Example on how to use .envrc for things only
+# YOU DO.
+# WARNING: only works outside devcontainers.
+# See development.md on how to use it.
+# The projects .envrc load a .envrc.private
+# file if it exists.
+# cp .envrc.private.example .envrc.private
+# and edit .envrc.private
+export GH_TOKEN=$(gh auth token)
