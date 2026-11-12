@@ -4,6 +4,7 @@
     "**/*.md",
     "**/*.mdx",
     "!**/node_modules/**",
+    "!**/.terraform/**",
     "!**/tmp/**",
     "!**/background/**",
     "!**/dist/**",

@@ -15,6 +15,13 @@ version.txt
 .astro/
 dist/
 
+# OpenTofu
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
 # General
 /tmp
 /temp
