@@ -13,3 +13,6 @@ STACKIT
 authentik
 goauthentik
 subchart
+devcontainer
+devcontainers
+direnv

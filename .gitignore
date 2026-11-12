@@ -25,3 +25,6 @@ dist/
 # General
 /tmp
 /temp
+
+.envrc.private
+/dev/minikube/cluster.env
